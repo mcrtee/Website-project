@@ -34,7 +34,7 @@
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -64,7 +64,7 @@
 }
 
 .navbar__links {
-    collor: #fff;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
