@@ -5,12 +5,19 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-image: url('images/pic1.jpg'); 
+    background-color: #140621;
+}
+
+.background__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/pic1.jpg'); /* Replace 'images/pic1.jpg' with your image path */
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .navbar {
@@ -284,19 +291,24 @@ body {
 
 /* Services */
 
-/* .services {
-    background: #141414;
+.services {
+    background: #140621;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    margin-top: 400px;
 }
 
+   
 .services__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-} */
+    background-color: #140621;
+    
+    
+} 
 
 
 
