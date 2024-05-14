@@ -4,6 +4,14 @@
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url('images/pic1.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
 
 .navbar {
     background-color: #140621; 
@@ -31,7 +39,7 @@
 
 
 #navbar__logo {
-    color: #fff;
+    color: #c3d6f6;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -237,6 +245,8 @@
     position: absolute;
     z-index: -1;
     top: 60px;
+    height: 100%;
+    width: 100%;
   
 }
 
@@ -244,6 +254,49 @@
     height: 100%;
     width: 100%;
 }
+
+.main__btn {
+    font-size: 1rem;
+    background-color: #140621;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    text-align: center;
+    /* Center horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Remove margin-left and margin-top */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 2.5rem; /* Add margin-top to position it vertically */
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}   
+
+/* Services */
+
+/* .services {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.services__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
 
 
 
