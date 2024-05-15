@@ -305,7 +305,7 @@
 } 
 
 .services__card {
-    margin: 1rem;
+    margin: 100px;
     height: 525px;
     width: 400px;
     border-radius: 4px;
@@ -331,9 +331,38 @@
     cursor: pointer;
 }
 
+/* Footer Section */
+.footer {
+    background-color: #0a030f;
+    color: #fff;
+    padding: 40px 0;
+}
 
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.footer__links {
+    margin-bottom: 20px;
+}
 
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__text {
+    font-size: 14px;
+    margin-top: 20px;
+}
 
 
 
