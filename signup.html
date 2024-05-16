@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIEWSPACE</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signupstyles.css">
 </head>
 <body>
     <nav class="navbar">
@@ -26,42 +26,49 @@
                     <a href="/videos.html" class="navbar__links">Videos</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="signup.html" class="button">Sign up</a>
+                  <a href="/" class="button">Sign up</a>
                 </li>
             </ul>
         </div>
     </nav>
+<!--Main-->
+<div class = "main__content">
+    <h1>VIEWSPACE</h1>
+</div>
 
-<!-- Hero Section-->
-    <div class = "main">
-        <div class = "main__container">
-            <div class = "main__img--container">
-                <img src = "images/pic1.jpg"
-                alt = "pic" id = "main__img" />
-            </div>
-            <div class = "main__content">
-                <h1>VIEWSPACE</h1>
-                <h2> EXPLORE THE UNIVERSE WITH INTERACTIVES AND VIDEOS</h2>
-                <div class = "text">
-                    <p>What is ViewSpace?</p>
-                    <p2>ViewSpace is a free, web-based collection of digital interactives and videos highlighting the latest developments in astronomy and Earth science.</p2>
-                </div> 
+<div class="signup-form">
+    <h2>Sign Up</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</div>
+<!-- Services Section -->
+<div class = "services">
+    <div class = "services__container">
+        <div class = "services__card">
+            <h2>Interactives</h2>
+            <a href="interactives.html" class="service__link">Learn More</a>
+        </div>
+        <div class = "services__card">
+            <h2>Videos</h2>
+            <a href="videos.html" class="service__link">Learn More</a>
         </div>
     </div>
-
-    <!-- Services Section -->
-    <div class = "services">
-        <div class = "services__container">
-            <div class = "services__card">
-                <h2>Interactives</h2>
-                <a href="interactives.html" class="service__link">Learn More</a>
-            </div>
-            <div class = "services__card">
-                <h2>Videos</h2>
-                <a href="videos.html" class="service__link">Learn More</a>
-            </div>
-        </div>
-    </div>
+</div>
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer__container">
@@ -70,7 +77,7 @@
                 <a href="#" class="footer__link">Terms and Conditions</a>
                 <a href="#" class="footer__link">Site Map</a>
             </div>
-            <p class="footer__text"> VIEWSPACE © 2024. All Rights Reserved.</p>
+            <p class="footer__text">Your Website © 2024. All Rights Reserved.</p>
         </div>
     </footer>
     <script src = "app.js"></script>
