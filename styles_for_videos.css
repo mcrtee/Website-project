@@ -31,12 +31,8 @@
 
 
 #navbar__logo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fwill-color: transparent;
-    -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -202,16 +198,11 @@
 }
 /* Hero Section */
 .main__content h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 30px;
     text-align: center;
     font-size: 50px;
-    background-color: #000000;
-    background-image: linear-gradient(to top, #cddae4 0%, #2e3077 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    color: #fff;
 }
 
 body {
@@ -231,7 +222,9 @@ body {
     position: relative;
 }
 
-.description {
+.description p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     margin-top: 40px;
     color: #ffffff;
     position: absolute;
