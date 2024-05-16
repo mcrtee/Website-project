@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color: #140621; 
+    background-color: #060721; 
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
 
 
 #navbar__logo {
-    color: #c3d6f6;
+    color: #fff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -90,18 +90,18 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background-color: #c88bd7;
+    background-color: #6992b2;
     color:#fff;
 }
 
 .button:hover {
-    background-color: #3a1e52;
+    background-color: #0e193b;
     transition: all 0.3s ease;
 }
 
 
 .navbar__links:hover {
-    color: #c88bd7;
+    color: #6992b2;
     transition: all 0.3s ease;
 }
 
@@ -127,11 +127,11 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #140621;
+        background: #060721;
     }
 
     .navbar__menu.active {
-        background: #140621;
+        background: #060721;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -205,8 +205,8 @@
     margin-top: 30px;
     text-align: center;
     font-size: 50px;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ffffff 0%, #6aa0fc 100%);
+    background-color: #000000;
+    background-image: linear-gradient(to top, #cddae4 0%, #2e3077 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -215,7 +215,7 @@
 }
 
 body {
-    background-color: #131014;
+    background-color: #030412;
 }
 
 .container {
@@ -233,7 +233,7 @@ body {
 
 .description {
     margin-top: 40px;
-    color: #fff;
+    color: #ffffff;
     position: absolute;
     top: 100;
     right: 50px;
@@ -242,7 +242,7 @@ body {
 /* Services */
 
 .services {
-    background: #140621;
+    background: #12122c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,7 +288,7 @@ body {
     margin: 400px 20px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #140621;
+    background-color: #060721;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -296,15 +296,39 @@ body {
 }
 
 .service__link:hover {
-    background-color: #3a1e52;
+    background-color: #6992b2;
 }
 
+
+@media screen and (max-width: 960px) {
+    .services {
+        height: 1600px;
+    }
+    .services h1 {
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+        height: 1400px;
+    }
+
+    .services h1 {
+        font-size: 1.2rem;
+    }
+
+    .services__card {
+        width: 300px;
+    }
+}
 
 
 
 /* Footer Section */
 .footer {
-    background-color: #0a030f;
+    background-color: #030412;
     color: #fff;
     padding: 90px;
 }
